@@ -5,6 +5,86 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/login_background"
     tools:context=".Donator_Register">
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="332dp"
+        android:layout_height="67dp"
+        android:text="Food & Supplies"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <EditText
+        android:id="@+id/Inventory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:inputType="text"
+        android:text="Inventory"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="332dp"
+        android:layout_height="67dp"
+        android:text="Hygeine"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="332dp"
+        android:layout_height="67dp"
+        android:text="Medicine"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="332dp"
+        android:layout_height="67dp"
+        android:text="Cleaning & Sanitizing"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="66dp"
+        android:layout_height="67dp"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="63dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/baseline_account_circle_24"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="648dp" />
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="215dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="614dp"></LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
