@@ -1,10 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".Donator_Register">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="77dp"
+          android:gravity="center"
+          android:text="Registration"
+          android:textColor="@color/black"
+          android:textSize="30dp"
+          android:textStyle="bold" />
+
+      <EditText
+          android:layout_width="335dp"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="16dp"
+          android:hint="First Name"
+          android:textColor="@color/white"
+          android:textColorHint="@color/black"
+          android:textSize="15sp"
+          android:background="@drawable/rounded_corner"
+          android:padding="15dp"
+          android:inputType="textPersonName"
+          android:id="@+id/username_input" />
+
+      <EditText
+          android:layout_width="335dp"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="16dp"
+          android:hint="Last Name"
+          android:textColor="@color/white"
+          android:textColorHint="@color/black"
+          android:textSize="15sp"
+          android:background="@drawable/rounded_corner"
+          android:padding="15dp"
+          android:inputType="textPersonName"
+          android:id="@+id/username_lastname_input" />
+
+      <EditText
+          android:layout_width="335dp"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="16dp"
+          android:hint="Email Address"
+          android:textColor="@color/white"
+          android:textColorHint="@color/black"
+          android:textSize="15sp"
+          android:background="@drawable/rounded_corner"
+          android:padding="15dp"
+          android:inputType="textPersonName"
+          android:id="@+id/username_email_input" />
+
+      <EditText
+          android:layout_width="335dp"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="16dp"
+          android:hint="Phone Number"
+          android:textColor="@color/white"
+          android:textColorHint="@color/black"
+          android:textSize="15sp"
+          android:background="@drawable/rounded_corner"
+          android:padding="15dp"
+          android:inputType="textPersonName"
+          android:id="@+id/username_phone_input" />
+
+      <EditText
+          android:layout_width="335dp"
+          android:layout_height="wrap_content"
+          android:hint="Password"
+          android:textColor="@color/white"
+          android:textColorHint="@color/black"
+          android:layout_marginBottom="240dp"
+          android:textSize="15sp"
+          android:background="@drawable/rounded_corner"
+          android:padding="15dp"
+          android:inputType="textPersonName"
+          android:id="@+id/username_password_input" />
+
+      <Button
+          android:id="@+id/volunteer_continue_btn"
+          android:layout_width="335dp"
+          android:layout_height="wrap_content"
+          android:background="@drawable/button_donator"
+          android:layout_marginTop="15dp"
+          android:textColor="@color/black"
+          android:text="Continue"
+          android:textSize="19sp" />
+
+   </LinearLayout>
+</RelativeLayout>

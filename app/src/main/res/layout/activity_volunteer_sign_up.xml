@@ -7,4 +7,44 @@
     android:layout_height="match_parent"
     tools:context=".Volunteer_SignUp">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:text="DCMH Sign In"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_corner"
+        android:padding="15dp"
+        android:inputType="textPersonName"
+        android:id="@+id/dcmh_username_password_input" />
+
+    <Button
+        android:id="@+id/volunteer_SignIn_continue_btn"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_donator"
+        android:layout_marginTop="530dp"
+        android:textColor="@color/black"
+        android:text="Continue"
+        android:textSize="19sp" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

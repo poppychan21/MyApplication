@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         donatorRegisterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1 = new Intent(MainActivity.this, Donator_SignUp.class);
+                Intent intent1 = new Intent(MainActivity.this, Donator_Register.class);
                 startActivity(intent1);
             }
         });
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         donatorSignUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            Intent intent2 = new Intent(MainActivity.this, Donator_Register.class);
+            Intent intent2 = new Intent(MainActivity.this, Donator_SignUp.class);
             startActivity(intent2);
             }
         });
