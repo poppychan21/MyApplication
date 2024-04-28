@@ -85,10 +85,14 @@
         tools:layout_editor_absoluteX="286dp"
         tools:layout_editor_absoluteY="648dp" />
 
-    <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="215dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="614dp"></LinearLayout>
+    <View
+        android:layout_width="450dpdp"
+        android:layout_height="3dp"
+        android:background="#E1E1E1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="636dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
