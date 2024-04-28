@@ -6,38 +6,67 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login_background"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="160dp"
-        android:layout_height="160dp"
-        android:src="@drawable/icon_acc_circle" />
-
-        <Button
-            android:id="@+id/donator_btn"
+        <ImageView
+            android:id="@+id/myImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Donator"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+
+        <Button
+            android:id="@+id/donator_register_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
             android:background="@drawable/button_donator"
-            android:text="Donator?"
+            android:layout_marginTop="5dp"
+            android:text="Register"
             android:textSize="20sp" />
 
-        <Button android:id="@+id/volunteer_btn"
-        android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/donator_signin_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Sign In"
+            android:textSize="20sp" />
+
+        <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="Volunteer?"
-        android:textSize="20sp"
+        android:text="DCMH Login"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center" />
 
-        />
-
+        <Button
+            android:id="@+id/volunteer_signin_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Sign In"
+            android:textSize="20sp" />
 
     </LinearLayout>
+
 
 </RelativeLayout>
